@@ -15,7 +15,7 @@ foods = ["ethiopian", "argentine"]
 #   ["sushi", "hamburgers", "mexican food", "ethiopian", "argentine"]
 #
 #------- your code below here ---------
-
+foods.each { |food| person[:favorite_foods] << food }
 #------- your code above here ---------
 
 p person[:favorite_foods]

@@ -24,3 +24,4 @@ person = {
 #   "122.4167"
 #
 #------- your code below here ---------
+p person["address"]["coordinates"].each { |key,value| p value.to_s }

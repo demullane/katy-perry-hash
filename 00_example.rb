@@ -20,4 +20,4 @@ person = {
 #
 #------- your code below here ---------
 
-p person["first_name"]
+puts person["first_name"]

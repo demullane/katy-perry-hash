@@ -23,3 +23,4 @@ person = {
 #   "address,favorite_foods,favorite_sport,first_name,last_name,wears_glasses"
 #
 #------- your code below here ---------
+p person.map { |key,value| "#{key}" }.sort.join(",")
